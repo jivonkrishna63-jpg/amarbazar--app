@@ -1,0 +1,6 @@
+{
+  "name": "AmarBazar - Local Marketplace & Delivery",
+  "description": "All-in-One Local Marketplace and Delivery app featuring multi-role dashboards for Customers, Sellers, Riders, and Admins with live COD order tracking, bilingual support (EN/BN), and local geo-fencing.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

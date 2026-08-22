@@ -1,0 +1,27 @@
+{
+  "name": "AmarBazar - Local Marketplace & Delivery",
+  "short_name": "AmarBazar",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary",
+  "description": "AmarBazar: Complete Local Marketplace & Fast Doorstep Delivery in Bangladesh",
+  "lang": "bn-BD",
+  "categories": ["shopping", "lifestyle", "food"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

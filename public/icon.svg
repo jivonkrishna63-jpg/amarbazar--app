@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="50%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#0f766e"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Rect -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)"/>
+  
+  <!-- Outer Glow Circle -->
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#ffffff" stroke-opacity="0.15" stroke-width="8"/>
+  
+  <!-- Shopping Bag Shape -->
+  <path d="M168 184 L344 184 L368 400 L144 400 Z" fill="#ffffff" fill-opacity="0.95"/>
+  <!-- Bag handle -->
+  <path d="M208 184 V144 C208 117 229 96 256 96 C283 96 304 117 304 144 V184" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round"/>
+  
+  <!-- Bengali "আ" Monogram & Golden Leaf -->
+  <text x="256" y="325" font-family="system-ui, -apple-system, sans-serif" font-size="130" font-weight="900" text-anchor="middle" fill="#047857">আ</text>
+  
+  <!-- Fast Delivery Swoosh -->
+  <path d="M120 380 Q 256 460 392 380" fill="none" stroke="url(#goldGrad)" stroke-width="20" stroke-linecap="round"/>
+  
+  <!-- Sparkle Star -->
+  <polygon points="340,140 348,158 368,160 352,174 358,194 340,182 322,194 328,174 312,160 332,158" fill="url(#goldGrad)"/>
+</svg>
